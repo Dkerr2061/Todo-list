@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    
+    <title>David's TODO List</title>
+    
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <div id="main-content">
+      <h1>Todo List</h1>
+        <form id="create-task-form" action="" method="POST">
+          <label for="new_task_description">Task description:</label>
+            <input type="text" id="new_task_description" name="new_task_description" placeholder="description">
+            <input type="submit" value="Create New Task">
+        </form>
+            <div id="list">
+              <h2>My Todos:</h2>
+                <ul id="tasks">
+                </ul>
+            </div>
+      </div>
+  </body>
+</html>
